@@ -10,7 +10,7 @@ In today's threat landscape, legacy RFID systems, particularly the MIFARE Classi
 
 ---
 
-## Executive Summary
+## Summary
 
 This guide provides a comprehensive overview of techniques for cloning MIFARE Classic 1K cards, a legacy RFID technology still widely deployed despite its vulnerabilities. It details the process of extracting authentication keys and emulating or cloning the card using tools like the Flipper Zero and custom firmware. Additionally, it discusses alternative tools such as the Proxmark3 for handling specific scenarios (e.g., “Static Encrypted” cards), outlines multiple attack methodologies, and recommends robust mitigation strategies.
 
