@@ -4,7 +4,7 @@ A technical walkthrough for extracting authentication keys and either emulating 
 > **Legal Disclaimer:**  
 > This guide is intended solely for educational purposes and for use in authorized security testing. Any unauthorized use, cloning, or tampering with RFID systems is illegal and unethical. Always obtain proper authorization before performing any penetration tests.
 
-In today's threat landscape, legacy RFID systems, particularly the MIFARE Classic 1K, continue to remain prevelant despite decades of known vulnerabilities. This guide distills both theoretical and hands-on expertise into a technical walkthrough for extracting authentication keys and either emulating or cloning these cards. It covers historical context, inherent vulnerabilities, advanced attack methodologies, and defensive mitigations, all while underscoring the importance of maintaining up-to-date security practices.
+In today's threat landscape, legacy RFID systems, particularly the MIFARE Classic 1K, continue to remain prevelant despite decades of known vulnerabilities. This guide distills both theoretical and hands-on expertise into a technical walkthrough for extracting authentication keys and either emulating or cloning these cards. It covers historical context, inherent vulnerabilities, advanced attack methodologies, and defensive mitigations.
 
 > **Note:** MIFARE Classic 1K cards operate at **13.56 MHz**
 
