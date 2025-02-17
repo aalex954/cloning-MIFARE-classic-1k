@@ -89,7 +89,7 @@ Confirm that the target is a MIFARE Classic 1K (or variant) and gather initial i
 
 ---
 
-### Step 2: Cracking the Keys
+### Step 2: Recovering the Keys
 
 The aim is to recover the secret keys from each sector. Without these keys, the card reader’s authentication handshake will fail, preventing access to the card’s data.
 
