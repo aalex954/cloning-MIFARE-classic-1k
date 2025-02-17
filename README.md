@@ -51,7 +51,7 @@ MIFARE Classic 1K cards operate at 13.56 MHz and are divided into 16 sectors, 
   Many deployments still use default keys (e.g., `FFFFFFFFFFFF`), analogous to default admin credentials, greatly simplifying unauthorized access.
 
 - **UID Immutability:**  
-  Although a fixed UID enhances security by ensuring consistent identity, it complicates cloning, which has led to the development of “magic” or UID changeable cards—often exploiting undocumented backdoors.
+  Although a fixed UID enhances security by ensuring consistent identity, it complicates cloning, which has led to the development of “magic” or UID changeable cards—often exploiting [undocumented backdoors(https://www.keysight.com/blogs/en/tech/nwvs/2024/08/27/security-highlight-backdoor-key-found-in-mifare-classic-cards).
 
 **Security Controls & Mitigations:**
 - **Key Diversification:** Employ unique keys for each card and sector.
@@ -228,3 +228,4 @@ By integrating these insights and best practices, security professionals can sig
 - [Flipper Docs MFKey32 Attack](https://docs.flipper.net/nfc/mfkey32)
 - [Dark Flipper Unleashed Firmware](https://github.com/DarkFlippers/unleashed-firmware)
 - [equipter - MFKey32v2](https://github.com/equipter/mfkey32v2)
+- [Jasper van Woudenberg - Backdoor Key Found in MIFARE Classic Cards](https://www.keysight.com/blogs/en/tech/nwvs/2024/08/27/security-highlight-backdoor-key-found-in-mifare-classic-cards)
