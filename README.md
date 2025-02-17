@@ -51,7 +51,7 @@ MIFARE Classic 1K cards operate at 13.56 MHz and are divided into 16 sectors, 
   Many deployments still use default keys (e.g., `FFFFFFFFFFFF`), analogous to default admin credentials, greatly simplifying unauthorized access.
 
 - **UID Immutability:**  
-  Although a fixed UID enhances security by ensuring consistent identity, it complicates cloning, which has led to the development of “magic” or UID changeable cards—often exploiting [undocumented backdoors(https://www.keysight.com/blogs/en/tech/nwvs/2024/08/27/security-highlight-backdoor-key-found-in-mifare-classic-cards).
+  Although a fixed UID enhances security by ensuring consistent identity, it complicates cloning, which has led to the development of “magic” or UID changeable cards—often exploiting [undocumented backdoors](https://www.keysight.com/blogs/en/tech/nwvs/2024/08/27/security-highlight-backdoor-key-found-in-mifare-classic-cards).
 
 **Security Controls & Mitigations:**
 - **Key Diversification:** Employ unique keys for each card and sector.
