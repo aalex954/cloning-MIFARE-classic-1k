@@ -204,7 +204,7 @@ After successfully extracting all sector keys, you can proceed to either emulate
 
 ## 4. Final Thoughts and Mitigation Strategies
 
-Cloning MIFARE Classic 1K cards starkly exposes the vulnerabilities inherent in legacy access control systems. While the techniques described here mirror the current state-of-the-art in penetration testing, they also serve as a call to action for better security measures.
+Cloning MIFARE Classic 1K cards starkly exposes the vulnerabilities inherent in legacy access control systems. The techniques described here should serve as a call to action for better security measures.
 
 **Recommendations:**
 - **Upgrade Your Systems:** Transition from legacy RFID technologies to modern, cryptographically secure solutions.
